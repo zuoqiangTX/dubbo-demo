@@ -15,7 +15,7 @@
     <dubbo:application name="dubbo_provider"  />
 
     <!-- 使用multicast广播注册中心暴露服务地址
-    <dubbo:registry address="multicast://224.5.6.7:1234" />-->
+    <dubbo:registry address="multicast://224.5.6.7:1234" /> 不知道为啥用mac还没搞定-->
 
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <dubbo:registry address="zookeeper://10.211.55.9:2181" />
